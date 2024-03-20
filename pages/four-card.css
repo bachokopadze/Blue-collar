@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    width: 100vw;
+    min-height: 100vh;
+    color: var(--background);
+    font-family: 'Poppins', sans-serif;
+    padding: 85px 32px 78px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+} 
+.box {
+    width: 100%;
+    padding-bottom: 28px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(97, 120, 149, 0.5);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 460px;
+
+}
+
+.Sub__heading {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 275;
+    letter-spacing: 0.17px;
+    color: var(--text);
+} 
+.title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0.17px;
+}
+.about {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    opacity: 50%;
+    margin-top: 16px;
+}
+.content {
+    margin-top: 27px;
+    padding-left: 28px;
+    padding-right: 28px;
+    display: flex;
+    flex-direction: column;
+} 
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cardtitle {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600px;
+    color: var(--text);
+} 
+.cardabout {
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: d00px;
+    color: var(--text);
+    letter-spacing: 0.09;
+    opacity: 50%;
+} 
+.icon {
+    margin-top: 33px;
+    width: 57px;
+    height: 57px;
+    margin-left: auto;
+} 
+.box {
+    width: 100%;
+    padding-bottom: 28px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 460px;
+} 
+.border {
+    width: 100%;
+    height: 3.55px;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
